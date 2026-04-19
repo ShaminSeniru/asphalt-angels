@@ -1,2 +1,188 @@
-# asphalt-angels
-If you are a car guy or an avgeek, this is the right place. Buckle up and explore the world of aviation and cars with edits, tripreports and much more.           
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asphalt Angels | Official Hub</title>
+    <style>
+        /* Base Style */
+        body {
+            background-color: #000000;
+            color: #ffffff;
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header {
+            padding: 60px 20px;
+            background: linear-gradient(to bottom, #1a1a1a, #000000);
+            border-bottom: 1px solid #333;
+        }
+
+        .logo-text {
+            font-size: 3.5em;
+            font-weight: 900;
+            text-transform: uppercase;
+            font-style: italic;
+            letter-spacing: -2px;
+            margin: 0;
+        }
+
+        .subtitle {
+            color: #888;
+            font-size: 1.1em;
+            margin-top: 10px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 60px;
+            padding: 20px;
+            text-align: left;
+        }
+
+        h2 {
+            text-transform: uppercase;
+            border-left: 4px solid #ffffff;
+            padding-left: 15px;
+            margin-bottom: 30px;
+            font-size: 1.5em;
+        }
+
+        /* Video Section */
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+            border-radius: 12px;
+            background: #111;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        /* Posts & News Section */
+        .post {
+            background: #0a0a0a;
+            padding: 25px;
+            border-radius: 12px;
+            margin-bottom: 25px;
+            border: 1px solid #222;
+            transition: 0.3s;
+        }
+
+        .post:hover {
+            border-color: #444;
+            background: #111;
+        }
+
+        .post-date {
+            color: #666;
+            font-size: 0.85em;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .badge {
+            background: #ffffff;
+            color: #000000;
+            padding: 3px 10px;
+            border-radius: 4px;
+            font-weight: bold;
+            font-size: 0.7em;
+            text-transform: uppercase;
+            margin-left: 10px;
+            vertical-align: middle;
+        }
+
+        /* Social Buttons */
+        .social-nav {
+            margin-top: 30px;
+        }
+
+        .btn-social {
+            display: inline-block;
+            margin: 5px;
+            padding: 12px 30px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 0.9em;
+            transition: 0.3s;
+        }
+
+        .yt-btn { background: #FF0000; color: white; }
+        .wa-btn { background: #25D366; color: white; }
+        
+        .yt-btn:hover { background: #cc0000; transform: translateY(-2px); }
+        .wa-btn:hover { background: #128C7E; transform: translateY(-2px); }
+
+        footer {
+            padding: 40px;
+            font-size: 0.8em;
+            color: #444;
+            border-top: 1px solid #111;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1 class="logo-text">ASPHALT ANGELS</h1>
+    <p class="subtitle">Cars • Aviation • Travel</p>
+    
+    <div class="social-nav">
+        <a href="https://youtube.com/@asphaltangels" class="btn-social yt-btn" target="_blank">YOUTUBE</a>
+        <a href="https://whatsapp.com/channel/0029VbBQCqS4inok3GJqNp11" class="btn-social wa-btn" target="_blank">WHATSAPP</a>
+    </div>
+</header>
+
+<div class="container">
+
+    <section>
+        <h2>Latest Upload</h2>
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/nzO572GpDZbzKd0f" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <section>
+        <h2>Exclusive Feed & News</h2>
+        
+        <div class="post">
+            <span class="post-date">April 19, 2026 <span class="badge">Exclusive</span></span>
+            <h3>Welcome to the Hub</h3>
+            <p>This is the official headquarters for the Asphalt Angels community. Here you'll find behind-the-scenes content, technical data on the cars and planes I feature, and early updates on my travels.</p>
+        </div>
+
+        <div class="post">
+            <span class="post-date">Coming Soon</span>
+            <h3>The Hangar Project</h3>
+            <p>I'm working on a special deep-dive video about a legendary aircraft. Stay tuned for exclusive photos and specs that won't be on the main channel.</p>
+        </div>
+    </section>
+
+</div>
+
+<footer>
+    <p>© 2026 ASPHALT ANGELS | Developed by Shamin</p>
+</footer>
+
+</body>
+</html>
